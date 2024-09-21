@@ -66,7 +66,7 @@ body {
 
 /* Animaciones glow para la clase yo */
 .yo > span {
-    animation: glow 2.5s ease-in-out infinite;
+    animation: glow 4.4s ease-in-out infinite;
 }
 
 /* Delays para las 22 letras de la clase yo */
@@ -136,7 +136,7 @@ body {
 
 /* Animaciones glow para la clase greetings */
 .greetings > span {
-    animation: glow 2.5s ease-in-out infinite;
+    animation: glow 5s ease-in-out infinite;
 }
 
 /* Delays para las 25 letras de la clase greetings */
