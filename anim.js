@@ -2,45 +2,45 @@
 var audio = document.querySelector("audio");
 var lyrics = document.querySelector("#lyrics");
 var lyricsData = [
-  { text: "Yo daría lo mejor de mi vida", time: 14 }, // Coloca aquí el tiempo exacto
-  { text: "Por estar con vos", time: 20 }, // Coloca aquí el tiempo exacto
-  { text: "Y podría reparar mi alma herida", time: 22 }, // Coloca aquí el tiempo exacto
-  { text: "A la luz del sol", time: 27 }, // Coloca aquí el tiempo exacto
-  { text: "No es tan cierto", time: 29 }, // Coloca aquí el tiempo exacto
-  { text: "Que yo vivo como quiero", time: 31 }, // Coloca aquí el tiempo exacto
-  { text: "Más bien hago lo que puedo", time: 34 }, // Coloca aquí el tiempo exacto
-  { text: "Viviendo a la sombra de tu amor", time: 38 }, // Coloca aquí el tiempo exacto
-  { text: "Las miradas que cruzamos son palabras", time: 44 }, // Coloca aquí el tiempo exacto
-  { text: "Con el corazón", time: 50 }, // Coloca aquí el tiempo exacto
-  { text: "No hay secretos", time: 52 }, // Coloca aquí el tiempo exacto
-  { text: "Tengo el cielo por mirarte", time: 54 }, // Coloca aquí el tiempo exacto
-  { text: "Y ningún dolor", time: 57 }, // Coloca aquí el tiempo exacto
-  { text: "Sin embargo", time: 59 }, // Coloca aquí el tiempo exacto
-  { text: "Sigo siendo un distraído", time: 60 }, // Coloca aquí el tiempo exacto
-  { text: "Como cuando era un niño", time: 64 }, // Coloca aquí el tiempo exacto
-  { text: "Dejando mariposas escapar", time: 68 }, // Coloca aquí el tiempo exacto
-  { text: "Si te vas no tengo nada", time: 74 }, // Coloca aquí el tiempo exacto
-  { text: "Si te quedas puedo hasta el mundo cambiar", time: 81 }, // Coloca aquí el tiempo exacto
-  { text: "O quizás no habré crecido", time: 88 }, // Coloca aquí el tiempo exacto
-  { text: "Dejando mariposas escapar", time: 96 }, // Coloca aquí el tiempo exacto
-  { text: "Yo daría lo mejor de mi vida", time: 116 }, // Coloca aquí el tiempo exacto
-  { text: "Por estar con vos", time: 122 }, // Coloca aquí el tiempo exacto
-  { text: "Y podría reparar tu alma herida", time: 124 }, // Coloca aquí el tiempo exacto
-  { text: "A la luz del sol", time: 128 }, // Coloca aquí el tiempo exacto
-  { text: "Sin embargo", time: 130 }, // Coloca aquí el tiempo exacto
-  { text: "Sigo siendo un distraído", time: 132 }, // Coloca aquí el tiempo exacto
-  { text: "Como cuando era un niño", time: 136 }, // Coloca aquí el tiempo exacto
-  { text: "Dejando mariposas escapar", time: 139 }, // Coloca aquí el tiempo exacto
-  { text: "Si te vas no tengo nada", time: 146 }, // Coloca aquí el tiempo exacto
-  { text: "Si te quedas puedo hasta el mundo cambiar", time: 153 }, // Coloca aquí el tiempo exacto
-  { text: "O quizás no habré crecido", time: 160 }, // Coloca aquí el tiempo exacto
-  { text: "Dejando mariposas escapar", time: 168 }, // Coloca aquí el tiempo exacto
-  { text: "Si te vas no tengo nada", time: 174 }, // Coloca aquí el tiempo exacto
-  { text: "Si te quedas puedo hasta el mundo cambiar", time: 181 }, // Coloca aquí el tiempo exacto
-  { text: "O quizás no habré crecido", time: 188 }, // Coloca aquí el tiempo exacto
-  { text: "Dejando mariposas escapar", time: 196 }, // Coloca aquí el tiempo exacto
-  { text: "Dejando mariposas escapar", time: 203 }, // Coloca aquí el tiempo exacto
-  { text: "Dejando mariposas escapar", time: 210  } // Coloca aquí el tiempo exacto
+  { text: "Yo daría lo mejor de mi vida", time: 13 }, // Coloca aquí el tiempo exacto
+  { text: "Por estar con vos", time: 19 }, // Coloca aquí el tiempo exacto
+  { text: "Y podría reparar mi alma herida", time: 21 }, // Coloca aquí el tiempo exacto
+  { text: "A la luz del sol", time: 26 }, // Coloca aquí el tiempo exacto
+  { text: "No es tan cierto", time: 28 }, // Coloca aquí el tiempo exacto
+  { text: "Que yo vivo como quiero", time: 30 }, // Coloca aquí el tiempo exacto
+  { text: "Más bien hago lo que puedo", time: 33 }, // Coloca aquí el tiempo exacto
+  { text: "Viviendo a la sombra de tu amor", time: 37 }, // Coloca aquí el tiempo exacto
+  { text: "Las miradas que cruzamos son palabras", time: 43 }, // Coloca aquí el tiempo exacto
+  { text: "Con el corazón", time: 49 }, // Coloca aquí el tiempo exacto
+  { text: "No hay secretos", time: 51 }, // Coloca aquí el tiempo exacto
+  { text: "Tengo el cielo por mirarte", time: 53 }, // Coloca aquí el tiempo exacto
+  { text: "Y ningún dolor", time: 56 }, // Coloca aquí el tiempo exacto
+  { text: "Sin embargo", time: 58 }, // Coloca aquí el tiempo exacto
+  { text: "Sigo siendo un distraído", time: 59 }, // Coloca aquí el tiempo exacto
+  { text: "Como cuando era un niño", time: 63 }, // Coloca aquí el tiempo exacto
+  { text: "Dejando mariposas escapar", time: 67 }, // Coloca aquí el tiempo exacto
+  { text: "Si te vas no tengo nada", time: 73 }, // Coloca aquí el tiempo exacto
+  { text: "Si te quedas puedo hasta el mundo cambiar", time: 80 }, // Coloca aquí el tiempo exacto
+  { text: "O quizás no habré crecido", time: 87 }, // Coloca aquí el tiempo exacto
+  { text: "Dejando mariposas escapar", time: 97 }, // Coloca aquí el tiempo exacto
+  { text: "Yo daría lo mejor de mi vida", time: 115 }, // Coloca aquí el tiempo exacto
+  { text: "Por estar con vos", time: 121 }, // Coloca aquí el tiempo exacto
+  { text: "Y podría reparar tu alma herida", time: 123 }, // Coloca aquí el tiempo exacto
+  { text: "A la luz del sol", time: 127 }, // Coloca aquí el tiempo exacto
+  { text: "Sin embargo", time: 129 }, // Coloca aquí el tiempo exacto
+  { text: "Sigo siendo un distraído", time: 131 }, // Coloca aquí el tiempo exacto
+  { text: "Como cuando era un niño", time: 135 }, // Coloca aquí el tiempo exacto
+  { text: "Dejando mariposas escapar", time: 138 }, // Coloca aquí el tiempo exacto
+  { text: "Si te vas no tengo nada", time: 145 }, // Coloca aquí el tiempo exacto
+  { text: "Si te quedas puedo hasta el mundo cambiar", time: 152 }, // Coloca aquí el tiempo exacto
+  { text: "O quizás no habré crecido", time: 159 }, // Coloca aquí el tiempo exacto
+  { text: "Dejando mariposas escapar", time: 167 }, // Coloca aquí el tiempo exacto
+  { text: "Si te vas no tengo nada", time: 173 }, // Coloca aquí el tiempo exacto
+  { text: "Si te quedas puedo hasta el mundo cambiar", time: 180 }, // Coloca aquí el tiempo exacto
+  { text: "O quizás no habré crecido", time: 187 }, // Coloca aquí el tiempo exacto
+  { text: "Dejando mariposas escapar", time: 195 }, // Coloca aquí el tiempo exacto
+  { text: "Dejando mariposas escapar", time: 202 }, // Coloca aquí el tiempo exacto
+  { text: "Dejando mariposas escapar", time: 209  } // Coloca aquí el tiempo exacto
 ];
 
 
